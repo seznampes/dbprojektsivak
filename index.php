@@ -70,8 +70,8 @@
                 Login
             </button>
 
-            <div class="register">
-            <a href="register.php">Register</a>
+            <div class="loginref">
+            <a href="register.php" class="logref">Zaregistruj sa</a>
             </div>
             </div>
             
