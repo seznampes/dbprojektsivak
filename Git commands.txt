@@ -1,0 +1,10 @@
+git clone
+	- slúži na naklonovanie
+git add -A
+	- pridá do repozitaru vsetky subory na sledovanie
+git commit
+	- ulozi zmeny do repozitaru aj s poznamkami
+git push -a
+	- vsetky commits pushne/nahra na server
+git pull 
+	- stiahne vsetko co sa pridalo na server

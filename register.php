@@ -24,15 +24,15 @@
       
     if ($result->num_rows > 0) {
         //vypisat chybu ze pouzivatel uz existuje
-        $error= "This username already exists";
+        $error = "This username already exists";
     } else{
         $sql = "INSERT INTO pouzivatel(meno, heslo) VALUES ('$meno', '$heslo')";
-
-
+       
+        $error = 'Registrácia prebehla úspešne!';
 
         $result = mysqli_query($conn, $sql); 
     }
-    $reg 'Registrácia prebehla úspešne!';<----------------------------------
+    
     }
     }
     $conn->close();
