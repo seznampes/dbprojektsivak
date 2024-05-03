@@ -7,8 +7,8 @@
 
         //connect string do DB
         $servername = "localhost";
-        $username = "Denis";
-        $password = "Denis";
+        $username = "root";
+        $password = "";
         $dbname = "tretiaci";
 
         // Create connection
