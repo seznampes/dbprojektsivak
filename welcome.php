@@ -2,7 +2,7 @@
 session_start();
 
 // Pripojenie k databáze
-$conn = mysqli_connect('localhost','root','','tretiaci');
+$conn = mysqli_connect('localhost','root','','DenisS');
 // Overenie pripojenia
 if (!$conn) {
     die("Pripojenie zlyhalo: " . mysqli_connect_error());

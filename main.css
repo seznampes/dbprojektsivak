@@ -10,7 +10,7 @@ body{
 
 .container{
     width: 90vw;
-    height: 90vh;
+    height: auto;
     margin: auto;
     display: flex;
     justify-self: center;

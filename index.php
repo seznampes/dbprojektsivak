@@ -9,7 +9,7 @@
         $servername = "localhost";
         $username = "root";
         $password = "";
-        $dbname = "tretiaci";
+        $dbname = "DenisS";
 
         // Create connection
         $conn = new mysqli($servername, $username, 

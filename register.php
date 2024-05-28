@@ -1,6 +1,6 @@
 <?php
     $error="";
-    $conn = mysqli_connect('localhost','root','','tretiaci');
+    $conn = mysqli_connect('localhost','root','','DenisS');
 
     if(!$conn){
         echo 'Nefunguje databaza';
